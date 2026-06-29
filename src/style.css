@@ -1,5 +1,33 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+body {
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    width: 250px;
+    height: 350px;
     background: white;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+#iconoArriba,
+#iconoBajo {
+    font-size: 60px;
+}
+#numero {
+    font-size: 90px;
+    text-align: center;
+    
+}
+#iconoBajo {
+    align-self: flex-end;
+    transform: rotate(180deg);
 }
